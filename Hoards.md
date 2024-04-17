@@ -39,9 +39,11 @@ $$ penalty = { \frac{\\# ♣}{\\# cards} }$$
 $$ bonus = { \frac{\\# ♦}{\\# cards} }$$
 
 Thus, score is now computed as follows:
+
 $$ score_{tricks} =  (1 - penalty + bonus) \times base$$
 
 You also lose score points for each card still in your hand.
+
 $$ score = score_{tricks} - 2 \times \sum values (hand) $$
 
 ## Turns
