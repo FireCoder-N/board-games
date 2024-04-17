@@ -34,8 +34,8 @@ $$ base = {0.8 \times \sum values(♣) + \sum values(♠) + 1.2 \times \sum [val
 
 After computing the base score, calculate the penalty for use of ♣ (indicating weapons to protect your lair) and the bonus for use of ♦ (indicating high value gemstones):
 
-$$ penalty = { \frac{\# ♣}{\# cards} }$$
-$$ bonus = { \frac{\# ♦}{\# cards} }$$
+$$ penalty = { \frac{\\# ♣}{\\# cards} }$$
+$$ bonus = { \frac{\\# ♦}{\\# cards} }$$
 
 Thus, score is now computed as follows:
 $$ score_{tricks} =  (1 - penalty + bonus) \times base$$
